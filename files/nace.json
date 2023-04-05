@@ -1,0 +1,524 @@
+[
+  {
+    "section": "A",
+    "code": "",
+    "name": "AGRICULTURE, FORESTRY AND FISHING",
+    "level": 1
+  },
+  {
+    "section": "A",
+    "code": "01",
+    "name": "Crop and animal production, hunting and related service activities",
+    "level": 2
+  },
+  {
+    "section": "A",
+    "code": "01.1",
+    "name": "Growing of non-perennial crops",
+    "level": 3
+  },
+  {
+    "section": "A",
+    "code": "01.11",
+    "name": "Growing of cereals (except rice), leguminous crops and oil seeds",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.12",
+    "name": "Growing of rice",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.13",
+    "name": "Growing of vegetables and melons, roots and tubers",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.14",
+    "name": "Growing of sugar cane",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.15",
+    "name": "Growing of tobacco",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.16",
+    "name": "Growing of fibre crops",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.19",
+    "name": "Growing of other non-perennial crops",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.2",
+    "name": "Growing of perennial crops",
+    "level": 3
+  },
+  {
+    "section": "A",
+    "code": "01.21",
+    "name": "Growing of grapes",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.22",
+    "name": "Growing of tropical and subtropical fruits",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.23",
+    "name": "Growing of citrus fruits",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.24",
+    "name": "Growing of pome fruits and stone fruits",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.25",
+    "name": "Growing of other tree and bush fruits and nuts",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.26",
+    "name": "Growing of oleaginous fruits",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.27",
+    "name": "Growing of beverage crops",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.28",
+    "name": "Growing of spices, aromatic, drug and pharmaceutical crops",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.29",
+    "name": "Growing of other perennial crops",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.3",
+    "name": "Plant propagation",
+    "level": 3
+  },
+  {
+    "section": "A",
+    "code": "01.30",
+    "name": "Plant propagation",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.4",
+    "name": "Animal production",
+    "level": 3
+  },
+  {
+    "section": "A",
+    "code": "01.41",
+    "name": "Raising of dairy cattle",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.42",
+    "name": "Raising of other cattle and buffaloes",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.43",
+    "name": "Raising of horses and other equines",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.44",
+    "name": "Raising of camels and camelids",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.45",
+    "name": "Raising of sheep and goats",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.46",
+    "name": "Raising of swine/pigs",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.47",
+    "name": "Raising of poultry",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.49",
+    "name": "Raising of other animals",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.5",
+    "name": "Mixed farming",
+    "level": 3
+  },
+  {
+    "section": "A",
+    "code": "01.50",
+    "name": "Mixed farming",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.6",
+    "name": "Support activities to agriculture and post-harvest crop activities",
+    "level": 3
+  },
+  {
+    "section": "A",
+    "code": "01.61",
+    "name": "Support activities for crop production",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.62",
+    "name": "Support activities for animal production",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.63",
+    "name": "Post-harvest crop activities",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.64",
+    "name": "Seed processing for propagation",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "01.7",
+    "name": "Hunting, trapping and related service activities",
+    "level": 3
+  },
+  {
+    "section": "A",
+    "code": "01.70",
+    "name": "Hunting, trapping and related service activities",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "02",
+    "name": "Forestry and logging",
+    "level": 2
+  },
+  {
+    "section": "A",
+    "code": "02.1",
+    "name": "Silviculture and other forestry activities",
+    "level": 3
+  },
+  {
+    "section": "A",
+    "code": "02.10",
+    "name": "Silviculture and other forestry activities",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "02.2",
+    "name": "Logging",
+    "level": 3
+  },
+  {
+    "section": "A",
+    "code": "02.20",
+    "name": "Logging",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "02.3",
+    "name": "Gathering of wild growing non-wood products",
+    "level": 3
+  },
+  {
+    "section": "A",
+    "code": "02.30",
+    "name": "Gathering of wild growing non-wood products",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "02.4",
+    "name": "Support services to forestry",
+    "level": 3
+  },
+  {
+    "section": "A",
+    "code": "02.40",
+    "name": "Support services to forestry",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "03",
+    "name": "Fishing and aquaculture",
+    "level": 2
+  },
+  {
+    "section": "A",
+    "code": "03.1",
+    "name": "Fishing",
+    "level": 3
+  },
+  {
+    "section": "A",
+    "code": "03.11",
+    "name": "Marine fishing",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "03.12",
+    "name": "Freshwater fishing",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "03.2",
+    "name": "Aquaculture",
+    "level": 3
+  },
+  {
+    "section": "A",
+    "code": "03.21",
+    "name": "Marine aquaculture",
+    "level": 4
+  },
+  {
+    "section": "A",
+    "code": "03.22",
+    "name": "Freshwater aquaculture",
+    "level": 4
+  },
+  {
+    "section": "B",
+    "code": "",
+    "name": "MINING AND QUARRYING",
+    "level": 1
+  },
+  {
+    "section": "B",
+    "code": "05",
+    "name": "Mining of coal and lignite",
+    "level": 2
+  },
+  {
+    "section": "B",
+    "code": "05.1",
+    "name": "Mining of hard coal",
+    "level": 3
+  },
+  {
+    "section": "B",
+    "code": "05.10",
+    "name": "Mining of hard coal",
+    "level": 4
+  },
+  {
+    "section": "B",
+    "code": "05.2",
+    "name": "Mining of lignite",
+    "level": 3
+  },
+  {
+    "section": "B",
+    "code": "05.20",
+    "name": "Mining of lignite",
+    "level": 4
+  },
+  {
+    "section": "B",
+    "code": "06",
+    "name": "Extraction of crude petroleum and natural gas",
+    "level": 2
+  },
+  {
+    "section": "B",
+    "code": "06.1",
+    "name": "Extraction of crude petroleum",
+    "level": 3
+  },
+  {
+    "section": "B",
+    "code": "06.10",
+    "name": "Extraction of crude petroleum",
+    "level": 4
+  },
+  {
+    "section": "B",
+    "code": "06.2",
+    "name": "Extraction of natural gas",
+    "level": 3
+  },
+  {
+    "section": "B",
+    "code": "06.20",
+    "name": "Extraction of natural gas",
+    "level": 4
+  },
+  {
+    "section": "B",
+    "code": "07",
+    "name": "Mining of metal ores",
+    "level": 2
+  },
+  {
+    "section": "B",
+    "code": "07.1",
+    "name": "Mining of iron ores",
+    "level": 3
+  },
+  {
+    "section": "B",
+    "code": "07.10",
+    "name": "Mining of iron ores",
+    "level": 4
+  },
+  {
+    "section": "B",
+    "code": "07.2",
+    "name": "Mining of non-ferrous metal ores",
+    "level": 3
+  },
+  {
+    "section": "B",
+    "code": "07.21",
+    "name": "Mining of uranium and thorium ores",
+    "level": 4
+  },
+  {
+    "section": "B",
+    "code": "07.29",
+    "name": "Mining of other non-ferrous metal ores",
+    "level": 4
+  },
+  {
+    "section": "B",
+    "code": "08",
+    "name": "Other mining and quarrying",
+    "level": 2
+  },
+  {
+    "section": "B",
+    "code": "08.1",
+    "name": "Quarrying of stone, sand and clay",
+    "level": 3
+  },
+  {
+    "section": "B",
+    "code": "08.11",
+    "name": "Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate",
+    "level": 4
+  },
+  {
+    "section": "B",
+    "code": "08.12",
+    "name": "Operation of gravel and sand pits; mining of clays and kaolin",
+    "level": 4
+  },
+  {
+    "section": "B",
+    "code": "08.9",
+    "name": "Mining and quarrying n.e.c.",
+    "level": 3
+  },
+  {
+    "section": "B",
+    "code": "08.91",
+    "name": "Mining of chemical and fertiliser minerals",
+    "level": 4
+  },
+  {
+    "section": "B",
+    "code": "08.92",
+    "name": "Extraction of peat",
+    "level": 4
+  },
+  {
+    "section": "B",
+    "code": "08.93",
+    "name": "Extraction of salt",
+    "level": 4
+  },
+  {
+    "section": "B",
+    "code": "08.99",
+    "name": "Other mining and quarrying n.e.c.",
+    "level": 4
+  },
+  {
+    "section": "B",
+    "code": "09",
+    "name": "Mining support service activities",
+    "level": 2
+  },
+  {
+    "section": "B",
+    "code": "09.1",
+    "name": "Support activities for petroleum and natural gas extraction",
+    "level": 3
+  },
+  {
+    "section": "B",
+    "code": "09.10",
+    "name": "Support activities for petroleum and natural gas extraction",
+    "level": 4
+  },
+  {
+    "section": "B",
+    "code": "09.9",
+    "name": "Support activities for other mining and quarrying",
+    "level": 3
+  },
+  {
+    "section": "B",
+    "code": "09.90",
+    "name": "Support activities for other mining and quarrying",
+    "level": 4
+  }
+]

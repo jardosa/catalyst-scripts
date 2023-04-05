@@ -1,0 +1,2240 @@
+{
+  "title": "SFDR Assessment",
+  "logoPosition": "right",
+  "pages": [
+   {
+    "name": "page1",
+    "elements": [
+     {
+      "type": "text",
+      "name": "Number_of_Full_Time_Employees_Number_of_Part_Time_Employees_a1",
+      "title": "How many unique, full-time individuals were employed by your organization as of the end of the reporting period?",
+      "description": "Enter a whole number. Do not include temporary workers or independent contractors.",
+      "isRequired": true,
+      "validators": [
+       {
+        "type": "regex",
+        "text": "No decimal values allowed",
+        "regex": "^[\\d]*$"
+       }
+      ],
+      "inputType": "number",
+      "min": 0
+     },
+     {
+      "type": "text",
+      "name": "Number_of_Full_Time_Employees_Number_of_Part_Time_Employees_a2",
+      "title": "How many unique, part-time individuals were employed by your organization as of the end of the reporting period?",
+      "description": "Enter a whole number. Do not include temporary workers or independent contractors.",
+      "isRequired": true,
+      "validators": [
+       {
+        "type": "regex",
+        "text": "No decimal values allowed",
+        "regex": "^[\\d]*$"
+       }
+      ],
+      "inputType": "number",
+      "min": 0
+     },
+     {
+      "type": "text",
+      "name": "Number_of_Full_Time_Employees_Number_of_Part_Time_Employees_a3",
+      "title": "How many full-time equivalent (FTE) full-time and part-time employees were employed by your organization as of the end of the reporting period?",
+      "description": "FTEs are calculated as an employee's scheduled hours divided by the employer's hours for a full-time workweek (e.g., for a 40-hour workweek, an employee scheduled to work 20 hours per week is 0.5 FTEs).",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0
+     },
+     {
+      "type": "comment",
+      "name": "Number_of_Full_Time_Employees_Number_of_Part_Time_Employees_b3",
+      "title": "Is there any additional information you would like to share on your organization’s employee count?"
+     }
+    ],
+    "title": "Workforce"
+   },
+   {
+    "name": "page11",
+    "elements": [
+     {
+      "type": "dropdown",
+      "name": "Country_of_Legal_Registration_a1",
+      "title": "Where was your organization legally registered as of the end of the reporting period?",
+      "isRequired": true,
+      "choices": [
+       "Afghanistan",
+       "Albania",
+       "Algeria",
+       "American Samoa",
+       "Andorra",
+       "Angola",
+       "Anguilla",
+       "Antarctica",
+       "Antigua and Barbuda",
+       "Argentina",
+       "Armenia",
+       "Aruba",
+       "Australia",
+       "Austria",
+       "Azerbaijan",
+       "Bahamas",
+       "Bahrain",
+       "Bangladesh",
+       "Barbados",
+       "Belarus",
+       "Belgium",
+       "Belize",
+       "Benin",
+       "Bermuda",
+       "Bhutan",
+       "Bolivia",
+       "Bosnia and Herzegovina",
+       "Botswana",
+       "Bouvet Island",
+       "Brazil",
+       "British Indian Ocean Territory",
+       "British Virgin Islands",
+       "Brunei",
+       "Bulgaria",
+       "Burkina Faso",
+       "Burundi",
+       "Cambodia",
+       "Cameroon",
+       "Canada",
+       "Cape Verde",
+       "Cayman Islands",
+       "Central African Republic",
+       "Chad",
+       "Chile",
+       "China",
+       "Christmas Island",
+       "Cocos [Keeling] Islands",
+       "Colombia",
+       "Comoros",
+       "Congo [DRC]",
+       "Congo [Republic]",
+       "Cook Islands",
+       "Costa Rica",
+       "Côte d'Ivoire",
+       "Croatia",
+       "Cuba",
+       "Cyprus",
+       "Czech Republic",
+       "Denmark",
+       "Djibouti",
+       "Dominica",
+       "Dominican Republic",
+       "Ecuador",
+       "Egypt",
+       "El Salvador",
+       "Equatorial Guinea",
+       "Eritrea",
+       "Estonia",
+       "Ethiopia",
+       "Falkland Islands [Islas Malvinas]",
+       "Faroe Islands",
+       "Fiji",
+       "Finland",
+       "France",
+       "French Guiana",
+       "French Polynesia",
+       "French Southern Territories",
+       "Gabon",
+       "Gambia",
+       "Gaza Strip",
+       "Georgia",
+       "Germany",
+       "Ghana",
+       "Gibraltar",
+       "Greece",
+       "Greenland",
+       "Grenada",
+       "Guadeloupe",
+       "Guam",
+       "Guatemala",
+       "Guernsey",
+       "Guinea",
+       "Guinea-Bissau",
+       "Guyana",
+       "Haiti",
+       "Heard Island and McDonald Islands",
+       "Honduras",
+       "Hong Kong",
+       "Hungary",
+       "Iceland",
+       "India",
+       "Indonesia",
+       "Iran",
+       "Iraq",
+       "Ireland",
+       "Isle of Man",
+       "Israel",
+       "Italy",
+       "Jamaica",
+       "Japan",
+       "Jersey",
+       "Jordan",
+       "Kazakhstan",
+       "Kenya",
+       "Kiribati",
+       "Kosovo",
+       "Kuwait",
+       "Kyrgyzstan",
+       "Laos",
+       "Latvia",
+       "Lebanon",
+       "Lesotho",
+       "Liberia",
+       "Libya",
+       "Liechtenstein",
+       "Lithuania",
+       "Luxembourg",
+       "Macau",
+       "Macedonia [FYROM]",
+       "Madagascar",
+       "Malawi",
+       "Malaysia",
+       "Maldives",
+       "Mali",
+       "Malta",
+       "Marshall Islands",
+       "Martinique",
+       "Mauritania",
+       "Mauritius",
+       "Mayotte",
+       "Mexico",
+       "Micronesia",
+       "Moldova",
+       "Monaco",
+       "Mongolia",
+       "Montenegro",
+       "Montserrat",
+       "Morocco",
+       "Mozambique",
+       "Myanmar [Burma]",
+       "Namibia",
+       "Nauru",
+       "Nepal",
+       "Netherlands",
+       "Netherlands Antilles",
+       "New Caledonia",
+       "New Zealand",
+       "Nicaragua",
+       "Niger",
+       "Nigeria",
+       "Niue",
+       "Norfolk Island",
+       "North Korea",
+       "Northern Mariana Islands",
+       "Norway",
+       "Oman",
+       "Pakistan",
+       "Palau",
+       "Palestinian Territories",
+       "Panama",
+       "Papua New Guinea",
+       "Paraguay",
+       "Peru",
+       "Philippines",
+       "Pitcairn Islands",
+       "Poland",
+       "Portugal",
+       "Puerto Rico",
+       "Qatar",
+       "Réunion",
+       "Romania",
+       "Russia",
+       "Rwanda",
+       "Saint Helena",
+       "Saint Kitts and Nevis",
+       "Saint Lucia",
+       "Saint Pierre and Miquelon",
+       "Saint Vincent and the Grenadines",
+       "Samoa",
+       "San Marino",
+       "São Tomé and Príncipe",
+       "Saudi Arabia",
+       "Senegal",
+       "Serbia",
+       "Seychelles",
+       "Sierra Leone",
+       "Singapore",
+       "Slovakia",
+       "Slovenia",
+       "Solomon Islands",
+       "Somalia",
+       "South Africa",
+       "South Georgia and the South Sandwich Islands",
+       "South Korea",
+       "Spain",
+       "Sri Lanka",
+       "Sudan",
+       "Suriname",
+       "Svalbard and Jan Mayen",
+       "Swaziland",
+       "Sweden",
+       "Switzerland",
+       "Syria",
+       "Taiwan",
+       "Tajikistan",
+       "Tanzania",
+       "Thailand",
+       "Timor-Leste",
+       "Togo",
+       "Tokelau",
+       "Tonga",
+       "Trinidad and Tobago",
+       "Tunisia",
+       "Turkey",
+       "Turkmenistan",
+       "Turks and Caicos Islands",
+       "Tuvalu",
+       "U.S. Minor Outlying Islands",
+       "U.S. Virgin Islands",
+       "Uganda",
+       "Ukraine",
+       "United Arab Emirates",
+       "United Kingdom",
+       "United States",
+       "Uruguay",
+       "Uzbekistan",
+       "Vanuatu",
+       "Vatican City",
+       "Venezuela",
+       "Vietnam",
+       "Wallis and Futuna",
+       "Western Sahara",
+       "Yemen",
+       "Zambia",
+       "Zimbabwe"
+      ],
+      "autocomplete": "country"
+     },
+     {
+      "type": "checkbox",
+      "name": "Countries_of_Operation_a1",
+      "title": "Where did your organization and any of its subsidiaries have physical operations at any point during the reporting period?",
+      "description": "Include all directly and indirectly controlled business sites and operations. Do not include employee living locations.",
+      "isRequired": true,
+      "choices": [
+       "Afghanistan",
+       "Albania",
+       "Algeria",
+       "American Samoa",
+       "Andorra",
+       "Angola",
+       "Anguilla",
+       "Antarctica",
+       "Antigua and Barbuda",
+       "Argentina",
+       "Armenia",
+       "Aruba",
+       "Australia",
+       "Austria",
+       "Azerbaijan",
+       "Bahamas",
+       "Bahrain",
+       "Bangladesh",
+       "Barbados",
+       "Belarus",
+       "Belgium",
+       "Belize",
+       "Benin",
+       "Bermuda",
+       "Bhutan",
+       "Bolivia",
+       "Bosnia and Herzegovina",
+       "Botswana",
+       "Bouvet Island",
+       "Brazil",
+       "British Indian Ocean Territory",
+       "British Virgin Islands",
+       "Brunei",
+       "Bulgaria",
+       "Burkina Faso",
+       "Burundi",
+       "Cambodia",
+       "Cameroon",
+       "Canada",
+       "Cape Verde",
+       "Cayman Islands",
+       "Central African Republic",
+       "Chad",
+       "Chile",
+       "China",
+       "Christmas Island",
+       "Cocos [Keeling] Islands",
+       "Colombia",
+       "Comoros",
+       "Congo [DRC]",
+       "Congo [Republic]",
+       "Cook Islands",
+       "Costa Rica",
+       "Côte d'Ivoire",
+       "Croatia",
+       "Cuba",
+       "Cyprus",
+       "Czech Republic",
+       "Denmark",
+       "Djibouti",
+       "Dominica",
+       "Dominican Republic",
+       "Ecuador",
+       "Egypt",
+       "El Salvador",
+       "Equatorial Guinea",
+       "Eritrea",
+       "Estonia",
+       "Ethiopia",
+       "Falkland Islands [Islas Malvinas]",
+       "Faroe Islands",
+       "Fiji",
+       "Finland",
+       "France",
+       "French Guiana",
+       "French Polynesia",
+       "French Southern Territories",
+       "Gabon",
+       "Gambia",
+       "Gaza Strip",
+       "Georgia",
+       "Germany",
+       "Ghana",
+       "Gibraltar",
+       "Greece",
+       "Greenland",
+       "Grenada",
+       "Guadeloupe",
+       "Guam",
+       "Guatemala",
+       "Guernsey",
+       "Guinea",
+       "Guinea-Bissau",
+       "Guyana",
+       "Haiti",
+       "Heard Island and McDonald Islands",
+       "Honduras",
+       "Hong Kong",
+       "Hungary",
+       "Iceland",
+       "India",
+       "Indonesia",
+       "Iran",
+       "Iraq",
+       "Ireland",
+       "Isle of Man",
+       "Israel",
+       "Italy",
+       "Jamaica",
+       "Japan",
+       "Jersey",
+       "Jordan",
+       "Kazakhstan",
+       "Kenya",
+       "Kiribati",
+       "Kosovo",
+       "Kuwait",
+       "Kyrgyzstan",
+       "Laos",
+       "Latvia",
+       "Lebanon",
+       "Lesotho",
+       "Liberia",
+       "Libya",
+       "Liechtenstein",
+       "Lithuania",
+       "Luxembourg",
+       "Macau",
+       "Macedonia [FYROM]",
+       "Madagascar",
+       "Malawi",
+       "Malaysia",
+       "Maldives",
+       "Mali",
+       "Malta",
+       "Marshall Islands",
+       "Martinique",
+       "Mauritania",
+       "Mauritius",
+       "Mayotte",
+       "Mexico",
+       "Micronesia",
+       "Moldova",
+       "Monaco",
+       "Mongolia",
+       "Montenegro",
+       "Montserrat",
+       "Morocco",
+       "Mozambique",
+       "Myanmar [Burma]",
+       "Namibia",
+       "Nauru",
+       "Nepal",
+       "Netherlands",
+       "Netherlands Antilles",
+       "New Caledonia",
+       "New Zealand",
+       "Nicaragua",
+       "Niger",
+       "Nigeria",
+       "Niue",
+       "Norfolk Island",
+       "North Korea",
+       "Northern Mariana Islands",
+       "Norway",
+       "Oman",
+       "Pakistan",
+       "Palau",
+       "Palestinian Territories",
+       "Panama",
+       "Papua New Guinea",
+       "Paraguay",
+       "Peru",
+       "Philippines",
+       "Pitcairn Islands",
+       "Poland",
+       "Portugal",
+       "Puerto Rico",
+       "Qatar",
+       "Réunion",
+       "Romania",
+       "Russia",
+       "Rwanda",
+       "Saint Helena",
+       "Saint Kitts and Nevis",
+       "Saint Lucia",
+       "Saint Pierre and Miquelon",
+       "Saint Vincent and the Grenadines",
+       "Samoa",
+       "San Marino",
+       "São Tomé and Príncipe",
+       "Saudi Arabia",
+       "Senegal",
+       "Serbia",
+       "Seychelles",
+       "Sierra Leone",
+       "Singapore",
+       "Slovakia",
+       "Slovenia",
+       "Solomon Islands",
+       "Somalia",
+       "South Africa",
+       "South Georgia and the South Sandwich Islands",
+       "South Korea",
+       "Spain",
+       "Sri Lanka",
+       "Sudan",
+       "Suriname",
+       "Svalbard and Jan Mayen",
+       "Swaziland",
+       "Sweden",
+       "Switzerland",
+       "Syria",
+       "Taiwan",
+       "Tajikistan",
+       "Tanzania",
+       "Thailand",
+       "Timor-Leste",
+       "Togo",
+       "Tokelau",
+       "Tonga",
+       "Trinidad and Tobago",
+       "Tunisia",
+       "Turkey",
+       "Turkmenistan",
+       "Turks and Caicos Islands",
+       "Tuvalu",
+       "U.S. Minor Outlying Islands",
+       "U.S. Virgin Islands",
+       "Uganda",
+       "Ukraine",
+       "United Arab Emirates",
+       "United Kingdom",
+       "United States",
+       "Uruguay",
+       "Uzbekistan",
+       "Vanuatu",
+       "Vatican City",
+       "Venezuela",
+       "Vietnam",
+       "Wallis and Futuna",
+       "Western Sahara",
+       "Yemen",
+       "Zambia",
+       "Zimbabwe"
+      ]
+     },
+     {
+      "type": "checkbox",
+      "name": "Countries_of_Sales_a1",
+      "title": "Where did your organization and any of its subsidiaries sell products or services at any point during the reporting period?",
+      "choices": [
+       "Afghanistan",
+       "Albania",
+       "Algeria",
+       "American Samoa",
+       "Andorra",
+       "Angola",
+       "Anguilla",
+       "Antarctica",
+       "Antigua and Barbuda",
+       "Argentina",
+       "Armenia",
+       "Aruba",
+       "Australia",
+       "Austria",
+       "Azerbaijan",
+       "Bahamas",
+       "Bahrain",
+       "Bangladesh",
+       "Barbados",
+       "Belarus",
+       "Belgium",
+       "Belize",
+       "Benin",
+       "Bermuda",
+       "Bhutan",
+       "Bolivia",
+       "Bosnia and Herzegovina",
+       "Botswana",
+       "Bouvet Island",
+       "Brazil",
+       "British Indian Ocean Territory",
+       "British Virgin Islands",
+       "Brunei",
+       "Bulgaria",
+       "Burkina Faso",
+       "Burundi",
+       "Cambodia",
+       "Cameroon",
+       "Canada",
+       "Cape Verde",
+       "Cayman Islands",
+       "Central African Republic",
+       "Chad",
+       "Chile",
+       "China",
+       "Christmas Island",
+       "Cocos [Keeling] Islands",
+       "Colombia",
+       "Comoros",
+       "Congo [DRC]",
+       "Congo [Republic]",
+       "Cook Islands",
+       "Costa Rica",
+       "Côte d'Ivoire",
+       "Croatia",
+       "Cuba",
+       "Cyprus",
+       "Czech Republic",
+       "Denmark",
+       "Djibouti",
+       "Dominica",
+       "Dominican Republic",
+       "Ecuador",
+       "Egypt",
+       "El Salvador",
+       "Equatorial Guinea",
+       "Eritrea",
+       "Estonia",
+       "Ethiopia",
+       "Falkland Islands [Islas Malvinas]",
+       "Faroe Islands",
+       "Fiji",
+       "Finland",
+       "France",
+       "French Guiana",
+       "French Polynesia",
+       "French Southern Territories",
+       "Gabon",
+       "Gambia",
+       "Gaza Strip",
+       "Georgia",
+       "Germany",
+       "Ghana",
+       "Gibraltar",
+       "Greece",
+       "Greenland",
+       "Grenada",
+       "Guadeloupe",
+       "Guam",
+       "Guatemala",
+       "Guernsey",
+       "Guinea",
+       "Guinea-Bissau",
+       "Guyana",
+       "Haiti",
+       "Heard Island and McDonald Islands",
+       "Honduras",
+       "Hong Kong",
+       "Hungary",
+       "Iceland",
+       "India",
+       "Indonesia",
+       "Iran",
+       "Iraq",
+       "Ireland",
+       "Isle of Man",
+       "Israel",
+       "Italy",
+       "Jamaica",
+       "Japan",
+       "Jersey",
+       "Jordan",
+       "Kazakhstan",
+       "Kenya",
+       "Kiribati",
+       "Kosovo",
+       "Kuwait",
+       "Kyrgyzstan",
+       "Laos",
+       "Latvia",
+       "Lebanon",
+       "Lesotho",
+       "Liberia",
+       "Libya",
+       "Liechtenstein",
+       "Lithuania",
+       "Luxembourg",
+       "Macau",
+       "Macedonia [FYROM]",
+       "Madagascar",
+       "Malawi",
+       "Malaysia",
+       "Maldives",
+       "Mali",
+       "Malta",
+       "Marshall Islands",
+       "Martinique",
+       "Mauritania",
+       "Mauritius",
+       "Mayotte",
+       "Mexico",
+       "Micronesia",
+       "Moldova",
+       "Monaco",
+       "Mongolia",
+       "Montenegro",
+       "Montserrat",
+       "Morocco",
+       "Mozambique",
+       "Myanmar [Burma]",
+       "Namibia",
+       "Nauru",
+       "Nepal",
+       "Netherlands",
+       "Netherlands Antilles",
+       "New Caledonia",
+       "New Zealand",
+       "Nicaragua",
+       "Niger",
+       "Nigeria",
+       "Niue",
+       "Norfolk Island",
+       "North Korea",
+       "Northern Mariana Islands",
+       "Norway",
+       "Oman",
+       "Pakistan",
+       "Palau",
+       "Palestinian Territories",
+       "Panama",
+       "Papua New Guinea",
+       "Paraguay",
+       "Peru",
+       "Philippines",
+       "Pitcairn Islands",
+       "Poland",
+       "Portugal",
+       "Puerto Rico",
+       "Qatar",
+       "Réunion",
+       "Romania",
+       "Russia",
+       "Rwanda",
+       "Saint Helena",
+       "Saint Kitts and Nevis",
+       "Saint Lucia",
+       "Saint Pierre and Miquelon",
+       "Saint Vincent and the Grenadines",
+       "Samoa",
+       "San Marino",
+       "São Tomé and Príncipe",
+       "Saudi Arabia",
+       "Senegal",
+       "Serbia",
+       "Seychelles",
+       "Sierra Leone",
+       "Singapore",
+       "Slovakia",
+       "Slovenia",
+       "Solomon Islands",
+       "Somalia",
+       "South Africa",
+       "South Georgia and the South Sandwich Islands",
+       "South Korea",
+       "Spain",
+       "Sri Lanka",
+       "Sudan",
+       "Suriname",
+       "Svalbard and Jan Mayen",
+       "Swaziland",
+       "Sweden",
+       "Switzerland",
+       "Syria",
+       "Taiwan",
+       "Tajikistan",
+       "Tanzania",
+       "Thailand",
+       "Timor-Leste",
+       "Togo",
+       "Tokelau",
+       "Tonga",
+       "Trinidad and Tobago",
+       "Tunisia",
+       "Turkey",
+       "Turkmenistan",
+       "Turks and Caicos Islands",
+       "Tuvalu",
+       "U.S. Minor Outlying Islands",
+       "U.S. Virgin Islands",
+       "Uganda",
+       "Ukraine",
+       "United Arab Emirates",
+       "United Kingdom",
+       "United States",
+       "Uruguay",
+       "Uzbekistan",
+       "Vanuatu",
+       "Vatican City",
+       "Venezuela",
+       "Vietnam",
+       "Wallis and Futuna",
+       "Western Sahara",
+       "Yemen",
+       "Zambia",
+       "Zimbabwe"
+      ]
+     },
+     {
+      "type": "comment",
+      "name": "Countries_of_Sales_b1",
+      "title": "Is there any additional information you would like to share on your organization's geographic reach?"
+     }
+    ],
+    "title": "Geography"
+   },
+   {
+    "name": "page10",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "Primary_Sector_Primary_Industry_a1",
+      "title": "What was your organization’s primary sector as of the end of the current reporting period?",
+      "description": "Select the primary sector based on the total revenue earned in the sector. For more information on the sectors, see SASB's Sustainable Industry Classification System here: https://www.sasb.org/find-your-industry/.",
+      "isRequired": true,
+      "choices": [
+       "Consumer Goods",
+       "Extractives & Minerals Processing",
+       "Food & Beverage",
+       "Financials",
+       "Health Care",
+       "Infrastructure",
+       "Renewable Resources & Alternative Energy",
+       "Resource Transformation",
+       "Services",
+       "Technology & Communications",
+       "Transportation"
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "Primary_Sector_Primary_Industry_b1",
+      "visibleIf": "{Primary_Sector_Primary_Industry_a1} = 'Consumer Goods'",
+      "title": "What was your organization’s primary industry as of the end of the current reporting period?",
+      "description": "Select the primary industry based on the total revenue earned in the industry. For more information on the industries, see SASB's Sustainable Industry Classification System here: https://www.sasb.org/find-your-industry/.",
+      "isRequired": true,
+      "choices": [
+       "Apparel, Accessories & Footwear",
+       "Appliance Manufacturing",
+       "Building Products & Furnishings",
+       "E-Commerce",
+       "Household & Personal Products",
+       "Multiline and Specialty Retailers & Distributors",
+       "Toys & Sporting Goods"
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "Primary_Sector_Primary_Industry_b2",
+      "visibleIf": "{Primary_Sector_Primary_Industry_a1} = 'Extractives & Minerals Processing'",
+      "title": "What was your organization’s primary industry as of the end of the current reporting period?",
+      "description": "Select the primary industry based on the total revenue earned in the industry. For more information on the industries, see SASB's Sustainable Industry Classification System here: https://www.sasb.org/find-your-industry/.",
+      "isRequired": true,
+      "choices": [
+       "Construction Materials",
+       "Coal Operations",
+       "Oil & Gas – Exploration & Production",
+       "Iron & Steel Producers",
+       "Oil & Gas – Midstream",
+       "Metals & Mining",
+       "Oil & Gas – Refining & Marketing",
+       "Oil & Gas – Services"
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "Primary_Sector_Primary_Industry_b3",
+      "visibleIf": "{Primary_Sector_Primary_Industry_a1} = 'Food & Beverage'",
+      "title": "What was your organization’s primary industry as of the end of the current reporting period?",
+      "description": "Select the primary industry based on the total revenue earned in the industry. For more information on the industries, see SASB's Sustainable Industry Classification System here: https://www.sasb.org/find-your-industry/.",
+      "isRequired": true,
+      "choices": [
+       "Alcoholic Beverages",
+       "Agricultural Products",
+       "Food Retailers & Distributors",
+       "Meat, Poultry & Dairy",
+       "Non-Alcoholic Beverages",
+       "Processed Foods",
+       "Restaurants",
+       "Tobacco"
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "Primary_Sector_Primary_Industry_b4",
+      "visibleIf": "{Primary_Sector_Primary_Industry_a1} = 'Financials'",
+      "title": "What was your organization’s primary industry as of the end of the current reporting period?",
+      "description": "Select the primary industry based on the total revenue earned in the industry. For more information on the industries, see SASB's Sustainable Industry Classification System here: https://www.sasb.org/find-your-industry/.",
+      "isRequired": true,
+      "choices": [
+       "Asset Management & Custody Activities",
+       "Commercial Banks",
+       "Consumer Finance",
+       "Security & Commodity Exchanges",
+       "Investment Banking & Brokerage",
+       "Insurance",
+       "Mortgage Finance"
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "Primary_Sector_Primary_Industry_b5",
+      "visibleIf": "{Primary_Sector_Primary_Industry_a1} = 'Health Care'",
+      "title": "What was your organization’s primary industry as of the end of the current reporting period?",
+      "description": "Select the primary industry based on the total revenue earned in the industry. For more information on the industries, see SASB's Sustainable Industry Classification System here: https://www.sasb.org/find-your-industry/.",
+      "isRequired": true,
+      "choices": [
+       "Biotechnology & Pharmaceuticals",
+       "Health Care Distributors",
+       "Drug Retailers",
+       "Health Care Delivery",
+       "Managed Care",
+       "Medical Equipment & Supplies"
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "Primary_Sector_Primary_Industry_b6",
+      "visibleIf": "{Primary_Sector_Primary_Industry_a1} = 'Infrastructure'",
+      "title": "What was your organization’s primary industry as of the end of the current reporting period?",
+      "description": "Select the primary industry based on the total revenue earned in the industry. For more information on the industries, see SASB's Sustainable Industry Classification System here: https://www.sasb.org/find-your-industry/.",
+      "isRequired": true,
+      "choices": [
+       "Engineering & Construction Services",
+       "Electric Utilities & Power Generators",
+       "Gas Utilities & Distributors",
+       "Home Builders",
+       "Real Estate",
+       "Real Estate Services",
+       "Waste Management",
+       "Water Utilities & Services"
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "Primary_Sector_Primary_Industry_b7",
+      "visibleIf": "{Primary_Sector_Primary_Industry_a1} = 'Renewable Resources & Alternative Energy'",
+      "title": "What was your organization’s primary industry as of the end of the current reporting period?",
+      "description": "Select the primary industry based on the total revenue earned in the industry. For more information on the industries, see SASB's Sustainable Industry Classification System here: https://www.sasb.org/find-your-industry/.",
+      "isRequired": true,
+      "choices": [
+       "Biofuels",
+       "Fuel Cells & Industrial Batteries",
+       "Forestry Management",
+       "Pulp & Paper Products",
+       "Solar Technology & Project Developers",
+       "Wind Technology & Project Developers"
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "Primary_Sector_Primary_Industry_b8",
+      "visibleIf": "{Primary_Sector_Primary_Industry_a1} = 'Resource Transformation'",
+      "title": "What was your organization’s primary industry as of the end of the current reporting period?",
+      "description": "Select the primary industry based on the total revenue earned in the industry. For more information on the industries, see SASB's Sustainable Industry Classification System here: https://www.sasb.org/find-your-industry/.",
+      "isRequired": true,
+      "choices": [
+       "Aerospace & Defense",
+       "Chemicals",
+       "Containers & Packaging",
+       "Electrical & Electronic Equipment",
+       "Industrial Machinery & Goods"
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "Primary_Sector_Primary_Industry_b9",
+      "visibleIf": "{Primary_Sector_Primary_Industry_a1} = 'Services'",
+      "title": "What was your organization’s primary industry as of the end of the current reporting period?",
+      "description": "Select the primary industry based on the total revenue earned in the industry. For more information on the industries, see SASB's Sustainable Industry Classification System here: https://www.sasb.org/find-your-industry/.",
+      "isRequired": true,
+      "choices": [
+       "Advertising & Marketing",
+       "Casinos & Gaming",
+       "Education",
+       "Hotels & Lodging",
+       "Leisure Facilities",
+       "Media & Entertainment",
+       "Professional & Commercial Services"
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "Primary_Sector_Primary_Industry_b10",
+      "visibleIf": "{Primary_Sector_Primary_Industry_a1} = 'Technology & Communications'",
+      "title": "What was your organization’s primary industry as of the end of the current reporting period?",
+      "description": "Select the primary industry based on the total revenue earned in the industry. For more information on the industries, see SASB's Sustainable Industry Classification System here: https://www.sasb.org/find-your-industry/.",
+      "isRequired": true,
+      "choices": [
+       "Electronic Manufacturing Services & Original Design Manufacturing",
+       "Hardware",
+       "Internet Media & Services",
+       "Semiconductors",
+       "Software & IT Services",
+       "Telecommunication Services"
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "Primary_Sector_Primary_Industry_b11",
+      "visibleIf": "{Primary_Sector_Primary_Industry_a1} = 'Transportation'",
+      "title": "What was your organization’s primary industry as of the end of the current reporting period?",
+      "description": "Select the primary industry based on the total revenue earned in the industry. For more information on the industries, see SASB's Sustainable Industry Classification System here: https://www.sasb.org/find-your-industry/.",
+      "isRequired": true,
+      "choices": [
+       "Air Freight & Logistics",
+       "Airlines",
+       "Auto Parts",
+       "Automobiles",
+       "Cruise Lines",
+       "Car Rental & Leasing",
+       "Marine Transportation",
+       "Rail Transportation",
+       "Road Transportation"
+      ]
+     },
+     {
+      "type": "boolean",
+      "name": "Primary_Sector_Primary_Industry_a2",
+      "title": "Were there any additional sectors that your organization operated in as of the end of the reporting period?",
+      "description": "For more information on the sectors, see SASB's Sustainable Industry Classification System here: https://www.sasb.org/find-your-industry/.",
+      "isRequired": true
+     },
+     {
+      "type": "checkbox",
+      "name": "question63",
+      "visibleIf": "{Primary_Sector_Primary_Industry_a2} = true",
+      "title": "What were the additional sectors that your organization operated in as of the end of the current reporting period?",
+      "description": "For more information on the sector breakdown, see SASB's Sustainable Industry Classification System here: https://www.sasb.org/find-your-industry/.",
+      "isRequired": true,
+      "choices": [
+       "Consumer Goods",
+       "Extractives & Minerals Processing",
+       "Food & Beverage",
+       "Financials",
+       "Health Care",
+       "Infrastructure",
+       "Renewable Resources & Alternative Energy",
+       "Resource Transformation",
+       "Services",
+       "Technology & Communications",
+       "Transportation"
+      ]
+     },
+     {
+      "type": "checkbox",
+      "name": "question65",
+      "visibleIf": "{question63} contains 'Consumer Goods'",
+      "title": "What were the additional industries that your organized operated in as of the end of the current reporting period?",
+      "isRequired": true,
+      "choices": [
+       "Apparel, Accessories & Footwear",
+       "Appliance Manufacturing",
+       "Building Products & Furnishings",
+       "E-Commerce",
+       "Household & Personal Products",
+       "Multiline and Specialty Retailers & Distributors",
+       "Toys & Sporting Goods"
+      ]
+     },
+     {
+      "type": "checkbox",
+      "name": "Primary_Sector_Primary_Industry_b",
+      "visibleIf": "{question63} contains 'Extractives & Minerals Processing'",
+      "title": "What were the additional industries that your organized operated in as of the end of the current reporting period?",
+      "isRequired": true,
+      "choices": [
+       "Construction Materials",
+       "Coal Operations",
+       "Oil & Gas – Exploration & Production",
+       "Iron & Steel Producers",
+       "Oil & Gas – Midstream",
+       "Metals & Mining",
+       "Oil & Gas – Refining & Marketing",
+       "Oil & Gas – Services"
+      ]
+     },
+     {
+      "type": "checkbox",
+      "name": "question87",
+      "visibleIf": "{question63} contains 'Food & Beverage'",
+      "title": "What were the additional industries that your organized operated in as of the end of the current reporting period?",
+      "isRequired": true,
+      "choices": [
+       "Alcoholic Beverages",
+       "Agricultural Products",
+       "Food Retailers & Distributors",
+       "Meat, Poultry & Dairy",
+       "Non-Alcoholic Beverages",
+       "Processed Foods",
+       "Restaurants",
+       "Tobacco"
+      ]
+     },
+     {
+      "type": "checkbox",
+      "name": "question88",
+      "visibleIf": "{question63} contains 'Financials'",
+      "title": "What were the additional industries that your organized operated in as of the end of the current reporting period?",
+      "isRequired": true,
+      "choices": [
+       "Asset Management & Custody Activities",
+       "Commercial Banks",
+       "Consumer Finance",
+       "Security & Commodity Exchanges",
+       "Investment Banking & Brokerage",
+       "Insurance",
+       "Mortgage Finance"
+      ]
+     },
+     {
+      "type": "checkbox",
+      "name": "question89",
+      "visibleIf": "{question63} contains 'Health Care'",
+      "title": "What were the additional industries that your organized operated in as of the end of the current reporting period?",
+      "isRequired": true,
+      "choices": [
+       "Biotechnology & Pharmaceuticals",
+       "Health Care Distributors",
+       "Drug Retailers",
+       "Health Care Delivery",
+       "Managed Care",
+       "Medical Equipment & Supplies"
+      ]
+     },
+     {
+      "type": "checkbox",
+      "name": "question90",
+      "visibleIf": "{question63} contains 'Infrastructure'",
+      "title": "What were the additional industries that your organized operated in as of the end of the current reporting period?",
+      "isRequired": true,
+      "choices": [
+       "Engineering & Construction Services",
+       "Electric Utilities & Power Generators",
+       "Gas Utilities & Distributors",
+       "Home Builders",
+       "Real Estate",
+       "Real Estate Services",
+       "Waste Management",
+       "Water Utilities & Services"
+      ]
+     },
+     {
+      "type": "checkbox",
+      "name": "question91",
+      "visibleIf": "{question63} contains 'Renewable Resources & Alternative Energy'",
+      "title": "What were the additional industries that your organized operated in as of the end of the current reporting period?",
+      "isRequired": true,
+      "choices": [
+       "Biofuels",
+       "Fuel Cells & Industrial Batteries",
+       "Forestry Management",
+       "Pulp & Paper Products",
+       "Solar Technology & Project Developers",
+       "Wind Technology & Project Developers"
+      ]
+     },
+     {
+      "type": "checkbox",
+      "name": "question92",
+      "visibleIf": "{question63} contains 'Resource Transformation'",
+      "title": "What were the additional industries that your organized operated in as of the end of the current reporting period?",
+      "isRequired": true,
+      "choices": [
+       "Aerospace & Defense",
+       "Chemicals",
+       "Containers & Packaging",
+       "Electrical & Electronic Equipment",
+       "Industrial Machinery & Goods"
+      ]
+     },
+     {
+      "type": "checkbox",
+      "name": "question93",
+      "visibleIf": "{question63} contains 'Services'",
+      "title": "What were the additional industries that your organized operated in as of the end of the current reporting period?",
+      "isRequired": true,
+      "choices": [
+       "Advertising & Marketing",
+       "Casinos & Gaming",
+       "Education",
+       "Hotels & Lodging",
+       "Leisure Facilities",
+       "Media & Entertainment",
+       "Professional & Commercial Services"
+      ]
+     },
+     {
+      "type": "checkbox",
+      "name": "question94",
+      "visibleIf": "{question63} contains 'Technology & Communications'",
+      "title": "What were the additional industries that your organized operated in as of the end of the current reporting period?",
+      "isRequired": true,
+      "choices": [
+       "Electronic Manufacturing Services & Original Design Manufacturing",
+       "Hardware",
+       "Internet Media & Services",
+       "Semiconductors",
+       "Software & IT Services",
+       "Telecommunication Services"
+      ]
+     },
+     {
+      "type": "checkbox",
+      "name": "question95",
+      "visibleIf": "{question63} contains 'Transportation'",
+      "title": "What were the additional industries that your organized operated in as of the end of the current reporting period?",
+      "isRequired": true,
+      "choices": [
+       "Air Freight & Logistics",
+       "Airlines",
+       "Auto Parts",
+       "Automobiles",
+       "Cruise Lines",
+       "Car Rental & Leasing",
+       "Marine Transportation",
+       "Rail Transportation",
+       "Road Transportation"
+      ]
+     },
+     {
+         "name": "PRIMARY_NACE_CODE",
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) category as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE category based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "checkbox",
+         "choices": [
+             "A - AGRICULTURE, FORESTRY AND FISHING",
+             "B - MINING AND QUARRYING"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) division as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE division based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "checkbox",
+         "name": "A_AGRICULTURE_FORESTRY_AND_FISHING",
+         "visibleIf": "{PRIMARY_NACE_CODE} contains 'A - AGRICULTURE, FORESTRY AND FISHING'",
+         "choices": [
+             "01 - Crop and animal production, hunting and related service activities",
+             "02 - Forestry and logging",
+             "03 - Fishing and aquaculture"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) division as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE division based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "checkbox",
+         "name": "B_MINING_AND_QUARRYING",
+         "visibleIf": "{PRIMARY_NACE_CODE} contains 'B - MINING AND QUARRYING'",
+         "choices": [
+             "05 - Mining of coal and lignite",
+             "06 - Extraction of crude petroleum and natural gas",
+             "07 - Mining of metal ores",
+             "08 - Other mining and quarrying",
+             "09 - Mining support service activities"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) class as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE class based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "checkbox",
+         "name": "01_CROP_AND_ANIMAL_PRODUCTION_HUNTING_AND_RELATED_SERVICE_ACTIVITIES",
+         "visibleIf": "{A_AGRICULTURE_FORESTRY_AND_FISHING} contains '01 - Crop and animal production, hunting and related service activities'",
+         "choices": [
+             "01.1 - Growing of non-perennial crops",
+             "01.2 - Growing of perennial crops",
+             "01.3 - Plant propagation",
+             "01.4 - Animal production",
+             "01.5 - Mixed farming",
+             "01.6 - Support activities to agriculture and post-harvest crop activities",
+             "01.7 - Hunting, trapping and related service activities"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) class as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE class based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "checkbox",
+         "name": "02_FORESTRY_AND_LOGGING",
+         "visibleIf": "{A_AGRICULTURE_FORESTRY_AND_FISHING} contains '02 - Forestry and logging'",
+         "choices": [
+             "02.1 - Silviculture and other forestry activities",
+             "02.2 - Logging",
+             "02.3 - Gathering of wild growing non-wood products",
+             "02.4 - Support services to forestry"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) class as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE class based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "checkbox",
+         "name": "03_FISHING_AND_AQUACULTURE",
+         "visibleIf": "{A_AGRICULTURE_FORESTRY_AND_FISHING} contains '03 - Fishing and aquaculture'",
+         "choices": [
+             "03.1 - Fishing",
+             "03.2 - Aquaculture"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) class as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE class based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "checkbox",
+         "name": "05_MINING_OF_COAL_AND_LIGNITE",
+         "visibleIf": "{B_MINING_AND_QUARRYING} contains '05 - Mining of coal and lignite'",
+         "choices": [
+             "05.1 - Mining of hard coal",
+             "05.2 - Mining of lignite"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) class as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE class based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "checkbox",
+         "name": "06_EXTRACTION_OF_CRUDE_PETROLEUM_AND_NATURAL_GAS",
+         "visibleIf": "{B_MINING_AND_QUARRYING} contains '06 - Extraction of crude petroleum and natural gas'",
+         "choices": [
+             "06.1 - Extraction of crude petroleum",
+             "06.2 - Extraction of natural gas"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) class as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE class based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "checkbox",
+         "name": "07_MINING_OF_METAL_ORES",
+         "visibleIf": "{B_MINING_AND_QUARRYING} contains '07 - Mining of metal ores'",
+         "choices": [
+             "07.1 - Mining of iron ores",
+             "07.2 - Mining of non-ferrous metal ores"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) class as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE class based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "checkbox",
+         "name": "08_OTHER_MINING_AND_QUARRYING",
+         "visibleIf": "{B_MINING_AND_QUARRYING} contains '08 - Other mining and quarrying'",
+         "choices": [
+             "08.1 - Quarrying of stone, sand and clay",
+             "08.9 - Mining and quarrying n.e.c."
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) class as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE class based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "checkbox",
+         "name": "09_MINING_SUPPORT_SERVICE_ACTIVITIES",
+         "visibleIf": "{B_MINING_AND_QUARRYING} contains '09 - Mining support service activities'",
+         "choices": [
+             "09.1 - Support activities for petroleum and natural gas extraction",
+             "09.9 - Support activities for other mining and quarrying"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "01.1_GROWING_OF_NON_PERENNIAL_CROPS",
+         "visibleIf": "{01_CROP_AND_ANIMAL_PRODUCTION_HUNTING_AND_RELATED_SERVICE_ACTIVITIES} contains '01.1 - Growing of non-perennial crops'",
+         "choices": [
+             "01.11 - Growing of cereals (except rice), leguminous crops and oil seeds",
+             "01.12 - Growing of rice",
+             "01.13 - Growing of vegetables and melons, roots and tubers",
+             "01.14 - Growing of sugar cane",
+             "01.15 - Growing of tobacco",
+             "01.16 - Growing of fibre crops",
+             "01.19 - Growing of other non-perennial crops"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "01.2_GROWING_OF_PERENNIAL_CROPS",
+         "visibleIf": "{01_CROP_AND_ANIMAL_PRODUCTION_HUNTING_AND_RELATED_SERVICE_ACTIVITIES} contains '01.2 - Growing of perennial crops'",
+         "choices": [
+             "01.21 - Growing of grapes",
+             "01.22 - Growing of tropical and subtropical fruits",
+             "01.23 - Growing of citrus fruits",
+             "01.24 - Growing of pome fruits and stone fruits",
+             "01.25 - Growing of other tree and bush fruits and nuts",
+             "01.26 - Growing of oleaginous fruits",
+             "01.27 - Growing of beverage crops",
+             "01.28 - Growing of spices, aromatic, drug and pharmaceutical crops",
+             "01.29 - Growing of other perennial crops"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "01.3_PLANT_PROPAGATION",
+         "visibleIf": "{01_CROP_AND_ANIMAL_PRODUCTION_HUNTING_AND_RELATED_SERVICE_ACTIVITIES} contains '01.3 - Plant propagation'",
+         "choices": [
+             "01.30 - Plant propagation"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "01.4_ANIMAL_PRODUCTION",
+         "visibleIf": "{01_CROP_AND_ANIMAL_PRODUCTION_HUNTING_AND_RELATED_SERVICE_ACTIVITIES} contains '01.4 - Animal production'",
+         "choices": [
+             "01.41 - Raising of dairy cattle",
+             "01.42 - Raising of other cattle and buffaloes",
+             "01.43 - Raising of horses and other equines",
+             "01.44 - Raising of camels and camelids",
+             "01.45 - Raising of sheep and goats",
+             "01.46 - Raising of swine/pigs",
+             "01.47 - Raising of poultry",
+             "01.49 - Raising of other animals"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "01.5_MIXED_FARMING",
+         "visibleIf": "{01_CROP_AND_ANIMAL_PRODUCTION_HUNTING_AND_RELATED_SERVICE_ACTIVITIES} contains '01.5 - Mixed farming'",
+         "choices": [
+             "01.50 - Mixed farming"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "01.6_SUPPORT_ACTIVITIES_TO_AGRICULTURE_AND_POST_HARVEST_CROP_ACTIVITIES",
+         "visibleIf": "{01_CROP_AND_ANIMAL_PRODUCTION_HUNTING_AND_RELATED_SERVICE_ACTIVITIES} contains '01.6 - Support activities to agriculture and post-harvest crop activities'",
+         "choices": [
+             "01.61 - Support activities for crop production",
+             "01.62 - Support activities for animal production",
+             "01.63 - Post-harvest crop activities",
+             "01.64 - Seed processing for propagation"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "01.7_HUNTING_TRAPPING_AND_RELATED_SERVICE_ACTIVITIES",
+         "visibleIf": "{01_CROP_AND_ANIMAL_PRODUCTION_HUNTING_AND_RELATED_SERVICE_ACTIVITIES} contains '01.7 - Hunting, trapping and related service activities'",
+         "choices": [
+             "01.70 - Hunting, trapping and related service activities"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "02.1_SILVICULTURE_AND_OTHER_FORESTRY_ACTIVITIES",
+         "visibleIf": "{02_FORESTRY_AND_LOGGING} contains '02.1 - Silviculture and other forestry activities'",
+         "choices": [
+             "02.10 - Silviculture and other forestry activities"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "02.2_LOGGING",
+         "visibleIf": "{02_FORESTRY_AND_LOGGING} contains '02.2 - Logging'",
+         "choices": [
+             "02.20 - Logging"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "02.3_GATHERING_OF_WILD_GROWING_NON_WOOD_PRODUCTS",
+         "visibleIf": "{02_FORESTRY_AND_LOGGING} contains '02.3 - Gathering of wild growing non-wood products'",
+         "choices": [
+             "02.30 - Gathering of wild growing non-wood products"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "02.4_SUPPORT_SERVICES_TO_FORESTRY",
+         "visibleIf": "{02_FORESTRY_AND_LOGGING} contains '02.4 - Support services to forestry'",
+         "choices": [
+             "02.40 - Support services to forestry"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "03.1_FISHING",
+         "visibleIf": "{03_FISHING_AND_AQUACULTURE} contains '03.1 - Fishing'",
+         "choices": [
+             "03.11 - Marine fishing",
+             "03.12 - Freshwater fishing"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "03.2_AQUACULTURE",
+         "visibleIf": "{03_FISHING_AND_AQUACULTURE} contains '03.2 - Aquaculture'",
+         "choices": [
+             "03.21 - Marine aquaculture",
+             "03.22 - Freshwater aquaculture"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "05.1_MINING_OF_HARD_COAL",
+         "visibleIf": "{05_MINING_OF_COAL_AND_LIGNITE} contains '05.1 - Mining of hard coal'",
+         "choices": [
+             "05.10 - Mining of hard coal"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "05.2_MINING_OF_LIGNITE",
+         "visibleIf": "{05_MINING_OF_COAL_AND_LIGNITE} contains '05.2 - Mining of lignite'",
+         "choices": [
+             "05.20 - Mining of lignite"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "06.1_EXTRACTION_OF_CRUDE_PETROLEUM",
+         "visibleIf": "{06_EXTRACTION_OF_CRUDE_PETROLEUM_AND_NATURAL_GAS} contains '06.1 - Extraction of crude petroleum'",
+         "choices": [
+             "06.10 - Extraction of crude petroleum"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "06.2_EXTRACTION_OF_NATURAL_GAS",
+         "visibleIf": "{06_EXTRACTION_OF_CRUDE_PETROLEUM_AND_NATURAL_GAS} contains '06.2 - Extraction of natural gas'",
+         "choices": [
+             "06.20 - Extraction of natural gas"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "07.1_MINING_OF_IRON_ORES",
+         "visibleIf": "{07_MINING_OF_METAL_ORES} contains '07.1 - Mining of iron ores'",
+         "choices": [
+             "07.10 - Mining of iron ores"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "07.2_MINING_OF_NON_FERROUS_METAL_ORES",
+         "visibleIf": "{07_MINING_OF_METAL_ORES} contains '07.2 - Mining of non-ferrous metal ores'",
+         "choices": [
+             "07.21 - Mining of uranium and thorium ores",
+             "07.29 - Mining of other non-ferrous metal ores"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "08.1_QUARRYING_OF_STONE_SAND_AND_CLAY",
+         "visibleIf": "{08_OTHER_MINING_AND_QUARRYING} contains '08.1 - Quarrying of stone, sand and clay'",
+         "choices": [
+             "08.11 - Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate",
+             "08.12 - Operation of gravel and sand pits; mining of clays and kaolin"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "08.9_MINING_AND_QUARRYING_N_E_C",
+         "visibleIf": "{08_OTHER_MINING_AND_QUARRYING} contains '08.9 - Mining and quarrying n.e.c.'",
+         "choices": [
+             "08.91 - Mining of chemical and fertiliser minerals",
+             "08.92 - Extraction of peat",
+             "08.93 - Extraction of salt",
+             "08.99 - Other mining and quarrying n.e.c."
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "09.1_SUPPORT_ACTIVITIES_FOR_PETROLEUM_AND_NATURAL_GAS_EXTRACTION",
+         "visibleIf": "{09_MINING_SUPPORT_SERVICE_ACTIVITIES} contains '09.1 - Support activities for petroleum and natural gas extraction'",
+         "choices": [
+             "09.10 - Support activities for petroleum and natural gas extraction"
+         ]
+     },
+     {
+         "title": "What was your organization’s primary Nomenclature of Economic Activities (NACE) activity as of the end of the current reporting period?",
+         "description": "Organizations should select their primary NACE activity based on the total revenue earned from the economic activity.",
+         "isRequired": true,
+         "type": "radiogroup",
+         "name": "09.9_SUPPORT_ACTIVITIES_FOR_OTHER_MINING_AND_QUARRYING",
+         "visibleIf": "{09_MINING_SUPPORT_SERVICE_ACTIVITIES} contains '09.9 - Support activities for other mining and quarrying'",
+         "choices": [
+             "09.90 - Support activities for other mining and quarrying"
+         ]
+     },
+     {
+      "type": "comment",
+      "name": "question67",
+      "title": "Is there any additional information you would like to share on the sectors or industries that your organization operated in as of the end of the reporting period?"
+     }
+    ],
+    "title": "Sector"
+   },
+   {
+    "name": "page2",
+    "elements": [
+     {
+      "type": "text",
+      "name": "Total_Revenue_a1",
+      "title": "What were your organization’s total revenues during the reporting period?",
+      "description": "Please enter the total amount of revenues generated by your organization from any source during the reporting period.",
+      "isRequired": true,
+      "validators": [
+       {
+        "type": "numeric"
+       }
+      ],
+      "inputType": "number",
+      "autocomplete": "transaction-currency",
+      "min": 0,
+      "placeholder": "Enter in euros"
+     },
+     {
+      "type": "text",
+      "name": "Total_Expenses_a2",
+      "title": "What were your organization’s total expenses during the reporting period?",
+      "description": "Please enter all expenses incurred by the organization during the reporting period. For insurance providers, this metric excludes claims payments.",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0,
+      "placeholder": "Enter in euros"
+     },
+     {
+      "type": "boolean",
+      "name": "Enterprise_Valuation_Total_Assets_a3",
+      "title": "Does your organization have access to data on its enterprise value including cash (EVIC) as of the end of the reporting period?",
+      "description": "For the definition of enterprise value including cash (EVIC), see the following resource: https://www.openriskmanual.org/wiki/Enterprise_Value_Including_Cash",
+      "isRequired": true
+     },
+     {
+      "type": "text",
+      "name": "Enterprise_Valuation_Total_Assets_b1",
+      "visibleIf": "{Enterprise_Valuation_Total_Assets_a3} = true",
+      "title": "What was your organization’s most recent enterprise value including cash (EVIC) as of the end of the reporting period?",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0,
+      "placeholder": "Enter in euros"
+     },
+     {
+      "type": "boolean",
+      "name": "Enterprise_Valuation_Total_Assets_c2",
+      "visibleIf": "{Enterprise_Valuation_Total_Assets_a3} = false",
+      "title": "Does your organization have data on its total assets, equal to the sum of current assets plus non-current assets, as of the end of the reporting period?",
+      "isRequired": true
+     },
+     {
+      "type": "text",
+      "name": "Enterprise_Valuation_Total_Assets_c3",
+      "visibleIf": "{Enterprise_Valuation_Total_Assets_c2} = true",
+      "title": "What was the value of your organization’s total assets, equal to the sum of current assets plus non-current assets, as of the end of the reporting period?",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0,
+      "placeholder": "Enter in euros"
+     },
+     {
+      "type": "boolean",
+      "name": "New_Investment_Capital_a4",
+      "title": "Does your organization have access to data on the amount of investment capital it raised during the reporting period?",
+      "description": "This metric is intended to capture the value of funds invested in the organization (both loans and investments) during the reporting period.",
+      "isRequired": true
+     },
+     {
+      "type": "text",
+      "name": "New_Investment_Capital_b1",
+      "visibleIf": "{New_Investment_Capital_a4} = true",
+      "title": "How much investment capital did your organization raise during the reporting period?",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0,
+      "placeholder": "Enter in euros"
+     },
+     {
+      "type": "comment",
+      "name": "New_Investment_Capital_b2",
+      "title": "Is there any additional information you would like to share on your organization's financial data?"
+     }
+    ],
+    "title": "Financial"
+   },
+   {
+    "name": "page3",
+    "elements": [
+     {
+      "type": "boolean",
+      "name": "Scope_1_Emissions_a1",
+      "title": "Does your organization have access to data on its Scope 1 greenhouse gas emissions during the reporting period?",
+      "description": "If your organization did not have any Scope 1 greenhouse gas emissions during the reporting period, answer \"Yes\" to this question and enter zero in the next question. ",
+      "isRequired": true
+     },
+     {
+      "type": "text",
+      "name": "Scope_1_Emissions_b1",
+      "visibleIf": "{Scope_1_Emissions_a1} = true",
+      "title": "What were your organization’s Scope 1 greenhouse gas emissions during the reporting period?",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0,
+      "placeholder": "Enter in metric tons"
+     },
+     {
+      "type": "comment",
+      "name": "Scope_1_Emissions_b2",
+      "visibleIf": "{Scope_1_Emissions_a1} = true",
+      "title": "Is there any additional information you would like to share on your organization’s Scope 1 emissions or its planned activities?"
+     },
+     {
+      "type": "boolean",
+      "name": "Scope_2_Emissions_a2",
+      "title": "Does your organization have access to data on its Scope 2 greenhouse gas emissions during the reporting period?",
+      "description": "If your organization did not have any Scope 2 greenhouse gas emissions during the reporting period, answer \"Yes\" to this question and enter zero in the next question. "
+     },
+     {
+      "type": "text",
+      "name": "Scope_2_Emissions_b1",
+      "visibleIf": "{Scope_2_Emissions_a2} = true",
+      "title": "What were your organization’s Scope 2 greenhouse gas emissions during the reporting period?",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0,
+      "placeholder": "Enter in metric tons"
+     },
+     {
+      "type": "comment",
+      "name": "Scope_2_Emissions_b2",
+      "visibleIf": "{Scope_2_Emissions_a2} = true",
+      "title": "Is there any additional information you would like to share on your organization’s Scope 2 emissions or its planed activities?"
+     },
+     {
+      "type": "boolean",
+      "name": "Scope_3_Emissions_a3",
+      "title": "Does your organization have access to data on its Scope 3 greenhouse gas emissions during the reporting period?",
+      "description": "Scope 3 emissions are greenhouse gases emitted indirectly as result of activities from assets not owned or controlled by the reporting organization, but that the organization indirectly affects in its value chain. "
+     },
+     {
+      "type": "text",
+      "name": "Scope_3_Emissions_b1",
+      "visibleIf": "{Scope_3_Emissions_a3} = true",
+      "title": "What were your organization’s Scope 3 greenhouse gas emissions during the reporting period?",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0,
+      "placeholder": "Enter in metric tons"
+     },
+     {
+      "type": "comment",
+      "name": "Scope_3_Emissions_b2",
+      "visibleIf": "{Scope_3_Emissions_a3} = true",
+      "title": "Is there any additional information you would like to share on your organization’s Scope 3 emissions or its planned activities?"
+     },
+     {
+      "type": "boolean",
+      "name": "Revenue_from_Fossil_Fuels_a1",
+      "title": "Did your organization derive any revenue from the exploration, mining, extraction, production, processing, storage, refining or distribution, including transport, storage and trade, of fossil fuels during the reporting period?",
+      "description": "Coal, crude oil, and natural gas are all considered fossil fuels.",
+      "isRequired": true
+     },
+     {
+      "type": "comment",
+      "name": "Revenue_from_Fossil_Fuels_b1",
+      "title": "Is there any additional information you would like to share on your organization’s revenue derived from fossil fuels or its planned activities?"
+     }
+    ],
+    "title": "Greenhouse Gas Emissions"
+   },
+   {
+    "name": "page4",
+    "elements": [
+     {
+      "type": "boolean",
+      "name": "Total_Energy_Consumption_a1",
+      "title": "Does your organization have access to data on the total amount of energy it consumed as part of its operations during the reporting period?",
+      "description": "If your organization did not consume any energy during the reporting period, answer \"Yes\" to this question and enter zero in the next question. ",
+      "isRequired": true
+     },
+     {
+      "type": "text",
+      "name": "Total_Energy_Consumption_b1",
+      "visibleIf": "{Total_Energy_Consumption_a1} = true",
+      "title": "What was the total amount of energy that your organization consumed as part of its operations during the reporting period?",
+      "description": "The includes energy purchased from sources external to the organization and energy produced by the organization itself for use.",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0,
+      "placeholder": "Enter in megawatt hours (MWh)"
+     },
+     {
+      "type": "comment",
+      "name": "Total_Energy_Consumption_b2",
+      "visibleIf": "{Total_Energy_Consumption_a1} = true",
+      "title": "Is there any additional information you would like to share on your organization’s total energy consumption or its planned activities?"
+     },
+     {
+      "type": "boolean",
+      "name": "Non_Renewable_Energy_Consumption_a1",
+      "title": "Does your organization have access to data on the amount of non-renewable energy it consumed as part of its operations during the reporting period?",
+      "description": "If your organization did not consume any non-renewable energy during the reporting period, answer \"Yes\" to this question and enter zero in the next question. ",
+      "isRequired": true
+     },
+     {
+      "type": "text",
+      "name": "Non_Renewable_Energy_Consumption_b1",
+      "visibleIf": "{Non_Renewable_Energy_Consumption_a1} = true",
+      "title": "What was the total amount of non-renewable energy that your organization consumed as part of its operations during the reporting period?",
+      "description": "Non-renewable energy includes all energy not in this list: geothermal, solar, sustainably sourced biomass (including biogas), hydropower, and wind energy sources.",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0,
+      "placeholder": "Enter in megawatt hours (MWh)"
+     },
+     {
+      "type": "comment",
+      "name": "Non_Renewable_Energy_Consumption_b2",
+      "visibleIf": "{Non_Renewable_Energy_Consumption_a1} = true",
+      "title": "Is there any additional information you would like to share on your organization’s non-renewable energy consumption or its planned activities?"
+     },
+     {
+      "type": "boolean",
+      "name": "Non_Renewable_Energy_Production_a2",
+      "title": "Does your organization have access to data on the amount of non-renewable energy it produced (i.e., generated for sale) during the reporting period?",
+      "description": "If your organization did not produce any non-renewable energy during the reporting period, answer \"Yes\" to this question and enter zero in the next question. ",
+      "isRequired": true
+     },
+     {
+      "type": "text",
+      "name": "Non_Renewable_Energy_Production_b1",
+      "visibleIf": "{Non_Renewable_Energy_Production_a2} = true",
+      "title": "What was the total amount of non-renewable energy that your organization produced during the reporting period?",
+      "description": "If your organization generates electricity and then consumes the electricity, this energy should be counted only once under energy consumption (not energy production).",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0,
+      "placeholder": "Enter in megawatt hours (MWh)"
+     },
+     {
+      "type": "comment",
+      "name": "Non_Renewable_Energy_Production_b2",
+      "visibleIf": "{Non_Renewable_Energy_Production_a2} = true",
+      "title": "Is there any additional information you would like to share on your organization’s non-renewable energy production or its planned activities?"
+     }
+    ],
+    "title": "Energy Management"
+   },
+   {
+    "name": "page5",
+    "elements": [
+     {
+      "type": "boolean",
+      "name": "Activities_Affecting_Biodiversity_Sensitive_Areas_a1",
+      "title": "Did the operations or activities of your organization negatively affect any biodiversity-sensitive areas during the reporting period?",
+      "description": "Biodiversity-sensitive areas include the Natura 2000 protected areas, UNESCO World Heritage Sites, and Key Biodiversity Areas. Negative effects are defined by GRI in Disclosure 304-2.",
+      "isRequired": true
+     },
+     {
+      "type": "comment",
+      "name": "Activities_Affecting_Biodiversity_Sensitive_Areas_b1",
+      "title": "Is there any additional information you would like to share on your organization’s operations or activities affecting biodiversity-sensitive areas or its planned activities?"
+     }
+    ],
+    "title": "Biodiversity"
+   },
+   {
+    "name": "page6",
+    "elements": [
+     {
+      "type": "checkbox",
+      "name": "Intensity_of_Emissions_into_Water_a1",
+      "title": "Did your organization produce emissions of any of the following pollutants or contaminants into water sources during the reporting period?",
+      "description": "Priority substances are defined in Article 2(30) of Directive 2000/60/EC of the European Parliament and of the Council, found in Annex I on pages 12-13: https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2013:226:0001:0017:en:PDF",
+      "isRequired": true,
+      "choices": [
+       "Nitrates",
+       "Phosphates",
+       "Pesticides",
+       "Priority substances"
+      ],
+      "showNoneItem": true
+     },
+     {
+      "type": "boolean",
+      "name": "Intensity_of_Emissions_into_Water_b1",
+      "visibleIf": "{Intensity_of_Emissions_into_Water_a1} contains 'Nitrates'",
+      "title": "Does your organization have data on the amount of nitrates it emitted during the reporting period?",
+      "isRequired": true
+     },
+     {
+      "type": "text",
+      "name": "Intensity_of_Emissions_into_Water_c1",
+      "visibleIf": "{Intensity_of_Emissions_into_Water_b1} = true",
+      "title": "What was the total amount of nitrates that your organization emitted into water sources during the reporting period?",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0
+     },
+     {
+      "type": "comment",
+      "name": "Intensity_of_Emissions_into_Water_c2",
+      "visibleIf": "{Intensity_of_Emissions_into_Water_b1} = true",
+      "title": "Is there any additional information you would like to share on your organization’s nitrate emissions or its planned activities?"
+     },
+     {
+      "type": "boolean",
+      "name": "Intensity_of_Emissions_into_Water_b2",
+      "visibleIf": "{Intensity_of_Emissions_into_Water_a1} contains 'Phosphates'",
+      "title": "Does your organization have data on the amount of phosphates it emitted during the reporting period?",
+      "isRequired": true
+     },
+     {
+      "type": "text",
+      "name": "Intensity_of_Emissions_into_Water_c3",
+      "visibleIf": "{Intensity_of_Emissions_into_Water_b2} = true",
+      "title": "What was the total amount of phosphates that your organization emitted into water sources during the reporting period?",
+      "inputType": "number",
+      "min": 0
+     },
+     {
+      "type": "comment",
+      "name": "Intensity_of_Emissions_into_Water_c4",
+      "visibleIf": "{Intensity_of_Emissions_into_Water_b2} = true",
+      "title": "Is there any additional information you would like to share on your organization’s phosphates emissions or its planned activities?"
+     },
+     {
+      "type": "boolean",
+      "name": "Intensity_of_Emissions_into_Water_b3",
+      "visibleIf": "{Intensity_of_Emissions_into_Water_a1} contains 'Pesticides'",
+      "title": "Does your organization have data on the amount of pesticides it emitted during the reporting period?",
+      "isRequired": true
+     },
+     {
+      "type": "text",
+      "name": "Intensity_of_Emissions_into_Water_c7",
+      "visibleIf": "{Intensity_of_Emissions_into_Water_b3} = true",
+      "title": "What was the total amount of pesticides that your organization emitted into water sources during the reporting period?",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0
+     },
+     {
+      "type": "comment",
+      "name": "Intensity_of_Emissions_into_Water_c6",
+      "visibleIf": "{Intensity_of_Emissions_into_Water_b3} = true",
+      "title": "Is there any additional information you would like to share on your organization’s pesticide emissions or its planned activities?"
+     },
+     {
+      "type": "boolean",
+      "name": "Intensity_of_Emissions_into_Water_b4",
+      "visibleIf": "{Intensity_of_Emissions_into_Water_a1} contains 'Priority substances'",
+      "title": "Does your organization have data on the amount of priority substances it emitted during the reporting period?",
+      "isRequired": true
+     },
+     {
+      "type": "text",
+      "name": "Intensity_of_Emissions_into_Water_c9",
+      "visibleIf": "{Intensity_of_Emissions_into_Water_b4} = true",
+      "title": "What was the total amount of priority substances that your organization emitted into water sources during the reporting period?",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0
+     },
+     {
+      "type": "comment",
+      "name": "Intensity_of_Emissions_into_Water_c8",
+      "visibleIf": "{Intensity_of_Emissions_into_Water_b4} = true",
+      "title": "Is there any additional information you would like to share on your organization’s priority substances emissions or its planned activities?"
+     },
+     {
+      "type": "comment",
+      "name": "Intensity_of_Emissions_into_Water_a2",
+      "title": "Is there any additional information you would like to share on your organization’s emissions into water or its planned activities?"
+     }
+    ],
+    "title": "Water"
+   },
+   {
+    "name": "page7",
+    "elements": [
+     {
+      "type": "boolean",
+      "name": "Hazardous_Waste_Production_b1",
+      "title": "Does your organization have data on the amount of hazardous waste it produced during the reporting period?",
+      "description": "If your organization did not produce any hazardous waste during the reporting period, answer \"Yes\" to this question and enter zero in the next question. ",
+      "isRequired": true
+     },
+     {
+      "type": "text",
+      "name": "Hazardous_ Waste_Production_c1",
+      "visibleIf": "{Hazardous_Waste_Production_b1} = true",
+      "title": "What was the total amount of hazardous waste that your organization produced during the reporting period?",
+      "description": "Hazardous waste is defined in Directive 2008/98/EC of the European Parliament, as any waste that displays any of the hazardous properties listed in Annex III: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32008L0098&from=EN",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0,
+      "placeholder": "Enter in metric tons"
+     },
+     {
+      "type": "comment",
+      "name": "Hazardous_ Waste_Production_c2",
+      "visibleIf": "{Hazardous_Waste_Production_b1} = true",
+      "title": "Is there any additional information you would like to share on your organization’s hazardous waste production or its planned activities?"
+     },
+     {
+      "type": "boolean",
+      "name": "Radioactive_Waste_Production_b1",
+      "title": "Does your organization have data on the amount of radioactive waste it produced during the reporting period?",
+      "description": "If your organization did not produce any radioactive waste during the reporting period, answer \"Yes\" to this question and enter zero in the next question. ",
+      "isRequired": true
+     },
+     {
+      "type": "text",
+      "name": "Radioactive_Waste_Production_b2",
+      "visibleIf": "{Radioactive_Waste_Production_b1} = true",
+      "title": "What was the total amount of radioactive waste that your organization produced during the reporting period?",
+      "description": "Radioactive waste is defined in Article 3(7) of Council Directive 2011/70/Euratom (found on page 5): https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32011L0070&from=DA",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0,
+      "placeholder": "Enter in metric tons"
+     },
+     {
+      "type": "comment",
+      "name": "Radioactive_Waste_Production_b3",
+      "visibleIf": "{Radioactive_Waste_Production_b1} = true",
+      "title": "Is there any additional information you would like to share on your organization’s radioactive waste production or its planned activities?"
+     }
+    ],
+    "title": "Waste"
+   },
+   {
+    "name": "page8",
+    "elements": [
+     {
+      "type": "text",
+      "name": "Average_Female_Hourly_Wage_a1",
+      "title": "What was the average gross hourly wage (including basic salary and remuneration) paid during the reporting period to female full-time and part-time employees of the organization?",
+      "description": "Do not include temporary workers or independent contractors. Remuneration is defined as additional amounts beyond fixed, minimum amounts paid to a worker, including (but not limited to) bonuses, equity, benefits, overtime, and additional allowances.",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0,
+      "placeholder": "Enter in euros"
+     },
+     {
+      "type": "text",
+      "name": "Average_Male_Hourly_Wage_a1",
+      "title": "What was the average gross hourly wage (including basic salary and remuneration) paid during the reporting period to male full-time and part-time employees of the organization?",
+      "description": "Do not include temporary workers or independent contractors. Remuneration is defined as additional amounts beyond fixed, minimum amounts paid to a worker, including (but not limited to) bonuses, equity, benefits, overtime, and additional allowances.",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0,
+      "placeholder": "Enter in euros"
+     },
+     {
+      "type": "comment",
+      "name": "Average_Male_Hourly_Wage_b2",
+      "title": "Is there any additional information you would like to share on your organization’s average gross hourly wages or its planned activities?"
+     },
+     {
+      "type": "boolean",
+      "name": "Female_Board_Members_Total_Board_Members_b1",
+      "title": "Does your organization have data on the number of females members of your organization’s board of directors as of the end of the reporting period?",
+      "isRequired": true
+     },
+     {
+      "type": "text",
+      "name": "Female_Board_Members_Total_Board_Members_c1",
+      "visibleIf": "{Female_Board_Members_Total_Board_Members_b1} = true",
+      "title": "How many females were on your organization’s board of directors as of the end of the reporting period?",
+      "description": "Enter a whole number (no decimals).",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0
+     },
+     {
+      "type": "text",
+      "name": "Female_Board_Members_Total_Board_Members_b",
+      "visibleIf": "{Female_Board_Members_Total_Board_Members_b1} = true",
+      "title": "How many total members were on your organization’s board of directors as of the end of the reporting period?",
+      "description": "Enter a whole number (no decimals).",
+      "isRequired": true,
+      "inputType": "number",
+      "min": 0
+     },
+     {
+      "type": "comment",
+      "name": "Female_Board_Members_Total_Board_Members_c2",
+      "visibleIf": "{Female_Board_Members_Total_Board_Members_b1} = true",
+      "title": "Is there any additional information you would like to share on your organization’s board of directors composition or its planned activities?"
+     }
+    ],
+    "title": "Gender Equity"
+   },
+   {
+    "name": "page9",
+    "elements": [
+     {
+      "type": "boolean",
+      "name": "Controversial_Weapons_Manufacturing_or_Selling_a1",
+      "title": "Was your organization involved in the manufacture or sale of any of the following weapons during the reporting period: anti-personnel mines, cluster munitions, chemical weapons, and/or biological weapons?",
+      "isRequired": true
+     },
+     {
+      "type": "comment",
+      "name": "Controversial_Weapons_Manufacturing_or_Selling_b1",
+      "title": "Is there any additional information you would like to share on your organization’s manufacturing or sale of the weapons listed or its planned activities?"
+     },
+     {
+      "type": "boolean",
+      "name": "UNGC_Principles_Compliance_Policy_a1",
+      "title": "Did your organization have a policy in place to monitor compliance and handle complaints and grievances associated with the United Nations Global Compact (UNGC) Principles as of the last day of the reporting period?",
+      "description": "For more information on the 10 UNGC Principles, see the following link: https://www.unglobalcompact.org/what-is-gc/mission/principles.",
+      "isRequired": true
+     },
+     {
+      "type": "comment",
+      "name": "UNGC_Principles_Compliance_Policy_a2",
+      "title": "Is there any additional information you would like to share on your organization’s adherence to the UNGC Principles or its planned activities?"
+     },
+     {
+      "type": "boolean",
+      "name": "UNGC_Principles_Violations_a1",
+      "title": "Did your organization have any violations of the United Nations Global Compact (UNGC) Principles during the reporting period?",
+      "description": "For more information on the 10 UNGC Principles, see the following link: https://www.unglobalcompact.org/what-is-gc/mission/principles.",
+      "isRequired": true
+     },
+     {
+      "type": "comment",
+      "name": "UNGC_Principles_Violations_a2",
+      "title": "Is there any additional information you would like to share related to any violations of the UNGC Principles or planned mitigation activities?"
+     },
+     {
+      "type": "boolean",
+      "name": "OECD_Guidelines_Compliance_Policy_a4",
+      "title": "Did your organization have a policy in place to monitor compliance and handle complaints and grievances associated with the OECD Guidelines for Multinational Enterprises as of the last day of the reporting period?",
+      "description": "For more information on the OECD Guidelines, see the following link: https://mneguidelines.oecd.org/mneguidelines/",
+      "isRequired": true
+     },
+     {
+      "type": "comment",
+      "name": "OECD_Guidelines_Compliance_Policy_b1",
+      "title": "Is there any additional information you would like to share on your organization’s adherence to the UNGC Principles or its planned activities?"
+     },
+     {
+      "type": "boolean",
+      "name": "OECD_Guidelines_Violations_a5",
+      "title": "Did your organization have any violations of the OECD Guidelines for Multinational Enterprises during the reporting period?",
+      "description": "For more information on the OECD Guidelines, see the following link: https://mneguidelines.oecd.org/mneguidelines/",
+      "isRequired": true
+     },
+     {
+      "type": "comment",
+      "name": "OECD_Guidelines_Violations_b1",
+      "title": "Is there any additional information you would like to share related to any violations of the OECD Guidelines or planned mitigation activities?"
+     }
+    ],
+    "title": "Business Ethics"
+   }
+  ]
+ }
