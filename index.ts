@@ -26,11 +26,18 @@ function createName(code: string, name: string) {
 function parseNace(naceDoc: typeof nace): SurveyQuestion[] {
   const firstLevelQuestionSingular: SurveyQuestion[] = [
     {
+      name: 'PRIMARY_NOMENCLATURE_OF_ECONOMIC_ACTIVITIES_CONDITIONAL_applicability',
+      title: 'Did your organization have a Nomenclature of Economic Activities (NACE) code as of the end of the current reporting period?',
+      type: "boolean",
+      isRequired: true,
+    },
+    {
       name: 'PRIMARY_NOMENCLATURE_OF_ECONOMIC_ACTIVITIES_applicability',
       title: 'What was your organization’s primary Nomenclature of Economic Activities (NACE) category as of the end of the current reporting period?',
       description: "Organizations should select their primary NACE category based on the total revenue earned from the economic activity.",
       isRequired: true,
       type: 'dropdown',
+      visibleIf: `{PRIMARY_NOMENCLATURE_OF_ECONOMIC_ACTIVITIES_CONDITIONAL_applicability} equals true`,
       choices: naceDoc.filter(({ level }) => level === 1).map(({ name, section }) => `${section} - ${name}`)
     }
   ]
@@ -132,7 +139,7 @@ function parseNace(naceDoc: typeof nace): SurveyQuestion[] {
         .map(({ name, code }) => `${code} - ${name}`)
 
       return {
-        title: "Which additional Nomenclature of Economic Activities (NACE) divisions apply to your organization as of the end of the current reporting period?",
+        title: "Which additional Nomenclature of Economic Activities (NACE) divisions apply to your organization as of the end of the current reporting period?" + ` (${doc.section} - ${parent.name})`,
         isRequired: true,
         type: 'tagbox',
         name: `${createName(doc.section, doc.name)}_PLURAL_applicability`,
@@ -154,7 +161,7 @@ function parseNace(naceDoc: typeof nace): SurveyQuestion[] {
         .map(({ name, code }) => `${code} - ${name}`)
 
       return {
-        title: "Which additional Nomenclature of Economic Activities (NACE) classes apply to your organization as of the end of the current reporting period?",
+        title: "Which additional Nomenclature of Economic Activities (NACE) classes apply to your organization as of the end of the current reporting period?" + ` (${doc.code} - ${doc.name})`,
         isRequired: true,
         type: 'tagbox',
         name: `${createName(doc.code, doc.name)}_PLURAL_applicability`,
@@ -176,7 +183,7 @@ function parseNace(naceDoc: typeof nace): SurveyQuestion[] {
         .map(({ name, code }) => `${code} - ${name}`)
 
       return {
-        title: "Which additional Nomenclature of Economic Activities (NACE) activities apply to your organization as of the end of the current reporting period?",
+        title: "Which additional Nomenclature of Economic Activities (NACE) activities apply to your organization as of the end of the current reporting period?" + ` (${doc.code} - ${doc.name})`,
         isRequired: true,
         type: 'tagbox',
         name: `${createName(doc.code, doc.name)}_PLURAL_applicability`,
